@@ -20,7 +20,7 @@ four card section page
 
 ### Links
 
-- Live Site URL: [four-card-section-page](https://olegbobokhidze.github.io/E-commerce-page/)
+- Live Site URL: [four-card-section-page](https://olegbobokhidze.github.io/four-card-section-page/)
 
 
 ### Built with
