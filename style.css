@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+  margin: 50px;
+}
+.first-header {
+  color: rgba(77, 79, 98, 1);
+  opacity: 0.7;
+  font-size: 20px;
+}
+.third-header {
+  color: rgba(77, 79, 98, 1);
+  font-size: 20px;
+}
+.second-header {
+  color: rgba(77, 79, 98, 1);
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.text {
+  color: rgba(77, 79, 98, 1);
+  opacity: 0.5;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.header-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-column: auto;
+  text-align: center;
+}
+
+/* it is four containers */
+.four-box {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  position: relative;
+  flex-direction: column;
+}
+.first-box {
+  width: 311px;
+  height: 222px;
+  background: #ffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  border-top: solid #44d3d2;
+  margin-top: 25px;
+  padding: 20px;
+}
+.second-box {
+  width: 311px;
+  height: 222px;
+  background: #ffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  border-top: solid #ea5454;
+  margin-top: 25px;
+  padding: 20px;
+}
+.third-box {
+  width: 311px;
+  height: 222px;
+  background: #ffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  border-top: solid #fcae4a;
+  margin-top: 25px;
+  padding: 20px;
+}
+.fourth-box {
+  width: 311px;
+  height: 222px;
+  background: #ffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  border-top: solid #549ef2;
+  margin-top: 25px;
+  padding: 20px;
+}
+/* this is images */
+.icon {
+  width: 57px;
+  height: 57px;
+  position: absolute;
+  transform: translate(350%, 45%);
+}
+@media screen and (min-width: 1440px) {
+  .four-box {
+    display: flex;
+    flex-direction: unset;
+  }
+  .side-box {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+  }
+  .first-box {
+    width: 350px;
+    height: 250px;
+  }
+  .second-box {
+    width: 350px;
+    height: 250px;
+  }
+  .third-box {
+    width: 350px;
+    height: 250px;
+  }
+  .fourth-box {
+    width: 350px;
+    height: 250px;
+  }
+  .third-header {
+    font-size: 36px;
+  }
+  .first-header {
+    font-size: 36px;
+  }
+  .second-header {
+    font-size: 22px;
+  }
+  .header-box {
+    max-width: 540px;
+    margin: 80px auto 65px;
+  }
+  .icon {
+    transform: translate(420%, 95%);
+  }
+}
